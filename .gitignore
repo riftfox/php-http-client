@@ -1,0 +1,8 @@
+/vendor/
+composer.lock
+/tests/_output/
+/tests/_support/_generated/
+.idea/
+.vscode/
+.DS_Store
+*.log

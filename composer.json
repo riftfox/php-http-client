@@ -1,0 +1,26 @@
+{
+    "name": "riftfox/php-http-client",
+    "description": "A lightweight PSR-18 HTTP client wrapper allowing custom response transformation via result factories.",
+    "type": "library",
+    "require": {
+        "psr/http-client": "^1.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.2@beta",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "2.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Riftfox\\HttpClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sun-Choi Yau",
+            "email": "riftfox.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
